@@ -1,0 +1,21 @@
+# Archivos de IDE y sistema
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs y dependencias
+*.log
+frontend/node_modules/
+backend/target/
+
+# Builds y paquetes
+frontend/build/
+frontend/dist/
+frontend/dist_electron/
+frontend/.svelte-kit/
+backend/*.jar
+
+# Base de datos
+backend/carpinteria.db
